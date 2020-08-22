@@ -15,7 +15,7 @@
         >{{answer}}</b-list-group-item>
       </b-list-group>
       <b-button v-if="!isFinalQuestion()" @click="next" variant="success" :disabled="!answered">Next</b-button>
-      <b-button v-else @click="retryLocal" variant="success">Retry</b-button>
+      <b-button v-else @click="retryLocal" variant="info">Retry</b-button>
     </b-jumbotron>
   </div>
 </template>
